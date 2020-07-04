@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NUCLEAR REMOTE.exe" version="1.0.0.0" publicKeyToken="62bc53b22c70b768" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="program.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NUCLEAR REMOTE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NUCLEAR REMOTE.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NUCLEAR REMOTE.exe" size="237480">
+      <assemblyIdentity name="NUCLEAR REMOTE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ehh6cPWIpBHhmifJxjd2V36yLE013gP2b79zMp+qtM8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="NUCLEAR REMOTE.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="program.ico" size="111822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>08AugHCyYVU1dc84/obO3Nc32cMv+PEx+nUrIQ0/VrI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CLORO\wwwan" issuerKeyHash="7a54a5fd7761e3aff4ab6897f4ae019bffd6a2e8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Mza9ZiNBV4jgqaoeNZxfSoqI52T3KQ1M5EmCIZlKjG4=</DigestValue></Reference></SignedInfo><SignatureValue>P6AeDOdr+xa+qFgQmrT0sM5ovA5D0outBvr8ph2KBXyeF0Y/XVZwZ8UT4Bvlm/Nrn64y3KKoLoqGpXlMGi6uXXGfGShtLR0T3dj7yTKf38a/KfxraUC/n3aTJPya96KOQpzVLSM6uM87/F08LZo1Hwx0fd3SmXaVxohj2ycAXtA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ru+d/TVUreQNfM0JsPejv14AqoTcb23nwgBcGw1FLUDXJZAKClwjvQoFa5XF/GfvhWhz3PxmWYzxlSFQltIwbPJgyDDxSn37kN56/kf7TXPBpTXfrMM3yl60niaOh6eLckbvdzSwWeJUkPEw2AKufOQ0a+bqB7/H6PQV6yByFP0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6e8c4a99218249e44c0d29f764e7888a4a5f9c351eaaa9e08857412366bd3633" Description="" Url=""><as:assemblyIdentity name="NUCLEAR REMOTE.exe" version="1.0.0.0" publicKeyToken="62bc53b22c70b768" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CLORO\wwwan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AaHzNI3dUwWEYvcm1cxEgLrCFGzbJpb2fxEbEjMXMdQ=</DigestValue></Reference></SignedInfo><SignatureValue>M7D0npbuYuMeCVfP7zWkncmVrwmntscRi22+Bng8eZMnJYbWKVg2J+dfl9Ksy1diF6GrMXOGSq498N0bcnPPXtfUIBCzC76lNIc1zR8Q3PgEg3rUlPCQIw175I1D09FjAYYIo7genIkhVrV8JJSilgrIJb9H1TtHRZSiN99B9tk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ru+d/TVUreQNfM0JsPejv14AqoTcb23nwgBcGw1FLUDXJZAKClwjvQoFa5XF/GfvhWhz3PxmWYzxlSFQltIwbPJgyDDxSn37kN56/kf7TXPBpTXfrMM3yl60niaOh6eLckbvdzSwWeJUkPEw2AKufOQ0a+bqB7/H6PQV6yByFP0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQM4RB1LwSjpJErxgjnvD41jANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQwBMAE8AUgBPAFwAdwB3AHcAYQBuMB4XDTIwMDcwNDE0NTYwOFoXDTIxMDcwNDIwNTYwOFowITEfMB0GA1UEAx4WAEMATABPAFIATwBcAHcAdwB3AGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAru+d/TVUreQNfM0JsPejv14AqoTcb23nwgBcGw1FLUDXJZAKClwjvQoFa5XF/GfvhWhz3PxmWYzxlSFQltIwbPJgyDDxSn37kN56/kf7TXPBpTXfrMM3yl60niaOh6eLckbvdzSwWeJUkPEw2AKufOQ0a+bqB7/H6PQV6yByFP0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCfv9Km19NhTiHOd58FSWljEEmniYKA/brpVGDkT1WGPdec3XQ3bZBy3TQwABvUjUiSaHMZWFOcqWn1OgvVGEtfqQaXMeQv8oGcx2W+FGMyEkG5A88Pwrzsd0oeMm2hayoOYx8T09W7H7IUStTQYuYWrlnraRakSaRdekXaY21FEw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
